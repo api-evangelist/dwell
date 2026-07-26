@@ -1,7 +1,28 @@
 aid: dwell
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dwell.png
 name: dwell
-description: dwell is a company surfaced as a portfolio company of slow-ventures and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Dwell is a digital publication and lifestyle brand focused on modern home
+  design, architecture, and interior inspiration, published by Ziff Davis. It
+  offers curated home tours, architectural features, renovation and before/after
+  projects, design photography, real estate listings, shopping guides, and
+  design news, plus a Dwell+ subscription for ad-free access and subscriber
+  exclusives, a shop for furniture and decor, and a "Find a Pro" professional
+  directory. Dwell was surfaced as a portfolio-adjacent lead in the API
+  Evangelist network; the public dwell.com property is a consumer media site
+  with no developer API, SDK, or developer portal, so no API artifacts are
+  captured for it.
 url: https://raw.githubusercontent.com/api-evangelist/dwell/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +30,18 @@ x-backed-by:
 - slow-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-api-surface: none
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Media
+- Publishing
+- Home Design
+- Architecture
+- Interior Design
+- Real Estate
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +51,18 @@ maintainers:
 common:
 - type: Website
   url: https://dwell.com
+- type: SignUp
+  url: https://www.dwell.com/signup
+- type: Support
+  url: https://support.dwell.com/
+- type: TermsOfService
+  url: https://www.ziffdavis.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.ziffdavis.com/privacy
+- type: DomainSecurity
+  url: security/dwell-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
