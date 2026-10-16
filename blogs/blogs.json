@@ -1,0 +1,21 @@
+{
+  "repo": "dwell",
+  "feeds": [
+    {
+      "source": "https://www.dwell.com/articles",
+      "feed_url": "https://www.dwell.com/@dwell/rss",
+      "title": "",
+      "saved": 26,
+      "method": "discovered"
+    },
+    {
+      "source": "https://www.dwell.com/@dwell/rss",
+      "feed_url": "https://www.dwell.com/@dwell/rss",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    }
+  ],
+  "post_count": 26,
+  "fetched": "2026-10-10T13:15:00Z"
+}
