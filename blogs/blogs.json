@@ -5,7 +5,7 @@
       "source": "https://www.dwell.com/articles",
       "feed_url": "https://www.dwell.com/@dwell/rss",
       "title": "",
-      "saved": 26,
+      "saved": 0,
       "method": "discovered"
     },
     {
@@ -16,6 +16,6 @@
       "method": "feed"
     }
   ],
-  "post_count": 26,
-  "fetched": "2026-10-10T13:15:00Z"
+  "post_count": 44,
+  "fetched": "2026-10-17T14:53:57Z"
 }
